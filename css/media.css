@@ -9,17 +9,17 @@
     height: 200px;
   }
 
+  .slider-button .btn button {
+    border: 1px solid rgba(0, 0, 0, 0.274);
+    color: black;
+  }
+
   .slider-button {
     bottom: 0;
     inset: 0;
     height: fit-content;
-    margin: auto auto 80% auto;
+    margin: auto auto 40% auto;
     justify-content: center;
-  }
-
-  .slider-button .btn button{
-    border: 1px solid rgba(0, 0, 0, 0.274);
-    color: black;
   }
 }
 
@@ -29,5 +29,12 @@
   }
   p {
     font-size: 14px;
+  }
+  .slider-button {
+    bottom: 0;
+    inset: 0;
+    height: fit-content;
+    margin: auto auto 80% auto;
+    justify-content: center;
   }
 }
